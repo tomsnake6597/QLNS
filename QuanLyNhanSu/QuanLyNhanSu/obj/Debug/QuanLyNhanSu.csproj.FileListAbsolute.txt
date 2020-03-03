@@ -5,11 +5,13 @@ C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\Microsoft.ReportViewer.Wi
 C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\RibbonControlsLibrary.dll
 C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\RibbonLib.dll
 C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\System.Windows.Forms.Ribbon.dll
-C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojAssemblyReference.cache
-C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Form1.resources
 C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
 C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.cache
 C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.CoreCompileInputs.cache
 C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.CopyComplete
 C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.FrmChucVu.resources
+C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.FrmDangNhap.resources
+C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.FrmQuanLyTaiKhoan.resources
+C:\Users\J\Desktop\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojAssemblyReference.cache

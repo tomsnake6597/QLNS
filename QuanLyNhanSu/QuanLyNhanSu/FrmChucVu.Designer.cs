@@ -1,6 +1,6 @@
 ﻿namespace QuanLyNhanSu
 {
-    partial class Form1
+    partial class FrmChucVu
     {
         /// <summary>
         /// Required designer variable.
@@ -253,6 +253,7 @@
             this.dtgvDanhSachChucVu.Size = new System.Drawing.Size(326, 260);
             this.dtgvDanhSachChucVu.TabIndex = 30;
             this.dtgvDanhSachChucVu.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dtgvDanhSachChucVu_RowHeaderMouseClick);
+            this.dtgvDanhSachChucVu.RowHeaderCellChanged += new System.Windows.Forms.DataGridViewRowEventHandler(this.dtgvDanhSachChucVu_RowHeaderCellChanged);
             // 
             // btnHuy
             // 
@@ -307,7 +308,7 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tìm Kiếm";
             // 
-            // Form1
+            // FrmChucVu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -317,8 +318,9 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dtgvDanhSachChucVu);
             this.Controls.Add(this.groupBox2);
-            this.Name = "Form1";
+            this.Name = "FrmChucVu";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FrmChucVu_Load);
             this.toolStrip2.ResumeLayout(false);
             this.toolStrip2.PerformLayout();
             this.toolStrip1.ResumeLayout(false);

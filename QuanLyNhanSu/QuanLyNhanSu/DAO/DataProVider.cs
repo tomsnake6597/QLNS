@@ -18,7 +18,7 @@ namespace QuanLyNhanSu.DAO
             private set { DataProVider.instance = value; }
         }
         private DataProVider() { }
-        string connectionSTR = @"Data Source=DESKTOP-193AT4E\SQLEXPRESS;Initial Catalog=QLNS;Integrated Security=True";
+        string connectionSTR = @"Data Source=.\SQLEXPRESS;Initial Catalog=QLNS;Integrated Security=True";
 
 
         public DataTable ExecuteQuery(String query, object[] parameter = null)

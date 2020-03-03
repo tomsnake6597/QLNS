@@ -23,7 +23,19 @@ namespace QuanLyNhanSu.DAO
         //Thêm, Sửa ,Xóa như nhau ae cũng coppy rồi đổi
         //Mấy câu query thì check bên sql đúng rồi hãy paste lại cho đỡ lỗi
 
+        //Kiem tra mã chức vụ đã tồn tại trong hệ thống hay chưa
+        public bool kiemTraMaChucVuTrungNhau(String MaChucVu)
+        {
+            bool tontai = false;
+            string query = string.Format("SELECT COUNT(*)  FROM tbl_ChucVu where MaChucVu=N'{0}' ", MaChucVu);
+            DataTable data = DataProVider.Instance.ExecuteQuery(query);
+            if (data.Rows[0][0].ToString() == "1")
+            {
+                tontai = true;
+            }
+            return tontai;
 
+        }
         public bool ThemChucvu(string MaChucVu,string ChucVu)
         {
             string query = string.Format("INSERT tbl_ChucVu(MaChucVu,ChucVu)VALUES(N'{0}', N'{1}')", MaChucVu,ChucVu);//{0},{1} là index trong string.format bắt đầu từ 0
